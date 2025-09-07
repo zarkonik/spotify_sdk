@@ -30,7 +30,7 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'de.minimalme.spotify_sdk'
     }
-
+    namespace 'com.zarkonik.spotify_sdk'
     compileSdk 34
 
     compileOptions {
